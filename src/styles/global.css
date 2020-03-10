@@ -1,0 +1,13 @@
+html, body {
+   height: 100%;
+}
+
+body:after {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background: linear-gradient(180deg, white 0%, white 30%, rgb(233, 222, 221) 30%, rgb(233, 222, 221) 100%);
+}
